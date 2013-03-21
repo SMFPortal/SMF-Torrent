@@ -1,5 +1,5 @@
 <?php
-// Version: 0.1 Alpha; Tracker
+// Version: 0.1; Tracker
 
 function template_torrent_list()
 {
