@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="modification.xsl" type="text/xsl"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  ATTENTION: If you are trying to install this manually, you should try
+	the package manager.  If it will not work for you, please take a look
+	at the following for information on this format:
+		http://mods.simplemachines.org/docs/manual-install.php
+
+================================================================================
+
+	Modification files can be used to modify files so that they do what
+	your package needs them to do to work properly.
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<!-- This information needs to be the same as that in the package-info.xml. -->
+	<id>Niko:SMFTorrent</id>
+	<version>0.1 Alpha</version>
+
+	<file name="$languagedir/Modifications.english.php">
+		<operation>
+			<search position="after"><![CDATA[?>]]></search>
+			<add><![CDATA[
+$txt['permissiongroup_tracker'] = 'Tracker';
+$txt['permissiongroup_simple_tracker'] = 'Use Tracker';
+$txt['permissionname_tracker_view'] = 'View Tracker';
+$txt['permissionname_tracker_download'] = 'Download';
+$txt['permissionname_tracker_delete'] = 'Delete Torrents';
+$txt['permissionname_tracker_delete_own'] = 'Own';
+$txt['permissionname_tracker_delete_any'] = 'Any';
+$txt['permissionname_tracker_upload'] = 'Upload Torrents';
+$txt['permissionname_tracker_admin'] = 'Admin';
+$txt['permissionname_tracker_view_stats'] = 'View Statistics';
+$txt['permissionname_tracker_view_stats_own'] = 'Own';
+$txt['permissionname_tracker_view_stats_any'] = 'Any';
+
+$txt['cannot_tracker_view'] = 'You are not allowed to view tracker';
+$txt['cannot_tracker_delete_own'] = 'You are not allowed to delete torrents';
+$txt['cannot_tracker_download'] = 'You are not allowed to download from tracker';
+
+$txt['tracker_admin'] = 'Tracker Admin';
+$txt['tracker_settings'] = 'Tracker Settings';
+
+$txt['trackerStats'] = 'Tracker Statistics';
+
+$txt['torrent_ratio'] = 'Ratio';
+$txt['torrent_downloaded'] = 'Downloaded';
+$txt['torrent_uploaded'] = 'Uploaded';
+$txt['active_torrents'] = 'Active Torrents';
+$txt['active_downloads'] = 'Downloads';
+$txt['active_uploads'] = 'Uploads';
+
+$txt['torrent_ib_seeds'] = 'seeders';
+$txt['torrent_ib_leechs'] = 'leechers';
+$txt['torrent_ib_transfer'] = 'transfered';
+$txt['torrent_ib_downloads'] = 'downloads';
+$txt['torrent_ib_details'] = 'view details';
+]]></add>
+		</operation>
+	</file>
+	<file name="$languagedir/Modifications.polish.php">
+		<operation>
+			<search position="after"><![CDATA[?>]]></search>
+			<add><![CDATA[
+$txt['permissiongroup_tracker'] = 'Tracker';
+$txt['permissiongroup_simple_tracker'] = 'Use Tracker';
+$txt['permissionname_tracker_view'] = 'View Tracker';
+$txt['permissionname_tracker_download'] = 'Download';
+$txt['permissionname_tracker_delete'] = 'Delete Torrents';
+$txt['permissionname_tracker_delete_own'] = 'Own';
+$txt['permissionname_tracker_delete_any'] = 'Any';
+$txt['permissionname_tracker_upload'] = 'Upload Torrents';
+$txt['permissionname_tracker_admin'] = 'Admin';
+$txt['permissionname_tracker_view_stats'] = 'View Statistics';
+$txt['permissionname_tracker_view_stats_own'] = 'Own';
+$txt['permissionname_tracker_view_stats_any'] = 'Any';
+
+$txt['cannot_tracker_view'] = 'You are not allowed to view tracker';
+$txt['cannot_tracker_delete_own'] = 'You are not allowed to delete torrents';
+$txt['cannot_tracker_download'] = 'You are not allowed to download from tracker';
+
+$txt['tracker_admin'] = 'Tracker Admin';
+$txt['tracker_settings'] = 'Tracker Settings';
+
+$txt['trackerStats'] = 'Tracker Statistics';
+
+$txt['torrent_ratio'] = 'Ratio';
+$txt['torrent_downloaded'] = 'Downloaded';
+$txt['torrent_uploaded'] = 'Uploaded';
+$txt['active_torrents'] = 'Active Torrents';
+$txt['active_downloads'] = 'Downloads';
+$txt['active_uploads'] = 'Uploads';
+
+$txt['torrent_ib_seeds'] = 'seeders';
+$txt['torrent_ib_leechs'] = 'leechers';
+$txt['torrent_ib_transfer'] = 'transfered';
+$txt['torrent_ib_downloads'] = 'downloads';
+$txt['torrent_ib_details'] = 'view details';
+]]></add>
+		</operation>
+	</file>
+</modification>
