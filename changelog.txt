@@ -1,15 +1,15 @@
 Changes go downward, months go upward.  Please scroll to the bottom for a legend.
-Changelog started April 6, 2007.
+Changelog started 01 01, 2013.
 
 SMF Torrent 0.1                                                                ?
 ================================================================================
-May 2008
+03 2013
 --------------------------------------------------------------------------------
  + Tracker can be really disabled
  ! Multiple torrents from one bbc-tag
  + Option to allow usage of external trackers
 
-December 2007
+01 2013
 --------------------------------------------------------------------------------
  ! Empty passkey no longer works
  ! Fixes to passkey check
