@@ -17,9 +17,9 @@
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 <package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
-	<id>Niko:SMFTorrent</id>
+	<id>Wasdman:SMFTorrent</id>
 	<name>SMF Torrent</name>
-	<version>0.1 Alpha</version>
+	<version>0.1</version>
 	<type>modification</type>
 
 	<install>
