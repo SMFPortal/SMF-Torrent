@@ -4,10 +4,10 @@
 ***********************************************************************************
 * SMF Torrent                                                                     *
 * =============================================================================== *
-* Software Version:           SMF Torrent 0.1 Alpha                               *
-* Software by:                Niko Pahajoki (http://www.madjoki.com)              *
-* Copyright 2008 by:          Niko Pahajoki (http://www.madjoki.com)              *
-* Support, News, Updates at:  http://www.madjoki.com                              *
+* Software Version:           SMF Torrent 0.1                                     *
+* Software by:                WasdMan  (http://smf-portal.hu)                     *
+* Copyright 2013 by:          WasdMan  (http://smf-portal.hu)                     *
+* Support, News, Updates at:  http://smf-portal.hu                                *
 ***********************************************************************************
 * This program is free software; you may redistribute it and/or modify it under   *
 * the terms of the provided license as published by Simple Machines LLC.          *
